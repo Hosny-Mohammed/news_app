@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                   img: news[index]['urlToImage'],
                   title: news[index]['title'],
                   description: news[index]['description']),
-              separatorBuilder: (context, index) => SizedBox(
+              separatorBuilder: (context, index) => const SizedBox(
                     height: 20,
                   ),
               itemCount: news.length);
